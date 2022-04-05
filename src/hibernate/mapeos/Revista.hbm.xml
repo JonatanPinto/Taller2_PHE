@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="hibernate.beans.Revista" table="revista">
+		<id name="isbn" column="isbn" type="string" />
+		<property name="nombre" column="nombre" type="string" />
+		<property name="editorial" column="editorial" type="string" />
+		<property name="tipo" column="tipo" type="string" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="hibernate.beans.ProfesorProyectoTerminal" table="profesor_proyecto_terminal">
+		<id name="idProfesorProyectoTerminal" column="id_profesor_proyecto_terminal" type="int" />
+		<property name="profesorNumeroEconomico" column="profesor_numero_economico" type="string" />
+		<property name="proyectoTerminalIdProyectoTerminal" column="proyecto_terminal_id_proyecto_terminal" type="int" />
+	</class>
+</hibernate-mapping>

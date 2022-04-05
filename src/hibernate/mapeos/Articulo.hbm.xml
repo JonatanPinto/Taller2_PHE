@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	 <class name="hibernate.beans.Articulo" table="articulo">
+	 	<id name="idArticuloInvestigacion" column="id_articulo_investigacion" type="int"/> 
+		<property name="titulo" column="titulo" type="string"/>
+		<property name="fechaPublicacion" column="fecha_publicacion" type="date"/>
+		<property name="puntos" column="puntos" type="int"/>
+		<property name="estado" column="estado" type="string"/>
+		<property name="proyectoInvestigacionIdProyectoInvestigacion" column="proyecto_investigacion_id_proyecto_investigacion" type="string"/>
+		<property name="revista_isbn" column="revista_isbn" type="string"/>
+	 </class>
+</hibernate-mapping>

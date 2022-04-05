@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<hibernate-configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="hibernate.cfg.xsd">
+	 <session-factory>
+	 <property name="hibernate.connection.driver_class"> com.mysql.cj.jdbc.Driver</property>
+	 <property name="hibernate.connection.url"> jdbc:mysql://localhost:3306/productos_profesor_web_phe</property>
+	 <property name="hibernate.connection.username"> root </property>
+	 <property name="hibernate.connection.password"> 12345 </property>
+	 <property name="hibernate.dialect"> org.hibernate.dialect.MySQL8Dialect</property>
+
+	<!-- MAPPING LIST XML-->
+		<mapping resource = "hibernate/mapeos/Area.hbm.xml"/>
+	 	<mapping resource="hibernate/mapeos/Articulo.hbm.xml"/>
+	 	<mapping resource="hibernate/mapeos/Profesor.hbm.xml"/>
+	 	<mapping resource="hibernate/mapeos/ProfesorArticulo.hbm.xml"/>
+	 	<mapping resource="hibernate/mapeos/ProfesorProyectoInvestigacion.hbm.xml"/>
+	 	<mapping resource="hibernate/mapeos/ProfesorProyectoTerminal.hbm.xml"/>
+	 	<mapping resource="hibernate/mapeos/ProyectoInvestigacion.hbm.xml"/>
+	 	<mapping resource="hibernate/mapeos/ProyectoTerminal.hbm.xml"/>
+		<mapping resource="hibernate/mapeos/Revista.hbm.xml"/>
+
+	 </session-factory>
+</hibernate-configuration>

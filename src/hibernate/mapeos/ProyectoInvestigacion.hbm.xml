@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	 <class name="hibernate.beans.ProyectoInvestigacion" table="proyecto_investigacion">
+	 	<id name="idProyectoInvestigacion" column="id_proyecto_investigacion" type="string"/> 
+		<property name="nombre" column="nombre" type="string"/>
+		<property name="areaClaveArea" column="area_clave_area" type="string"/>
+
+	 </class>
+</hibernate-mapping>

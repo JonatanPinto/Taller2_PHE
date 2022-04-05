@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	 <class name="hibernate.beans.Profesor" table="profesor">
+	 	<id name="numeroEconomico" column="numero_economico" type="string"/> 
+		<property name="nombre" column="nombre" type="string"/>
+		<property name="primerApellido" column="primer_apellido" type="string"/>
+		<property name="segundoApellido" column="segundo_apellido" type="string"/>
+		<property name="gradoAcademico" column="grado_academico" type="string"/>
+		<property name="areaClaveArea" column="area_clave_area" type="string"/>
+	 </class>
+</hibernate-mapping>

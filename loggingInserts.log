@@ -1,0 +1,46 @@
+2022-04-05 00:19:49  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-05 00:19:50  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-05 00:19:51  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-05 00:19:51  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-05 00:19:51  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-05 00:19:51  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-05 00:19:51  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-05 00:19:52  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-05 00:19:52  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-05 00:19:52  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-05 00:19:53  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-05 00:19:55  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-05 00:19:56  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-05 00:19:57  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-05 00:19:57  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-05 00:19:58  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-05 00:19:58  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-05 00:19:59  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-05 00:20:00  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-05 00:20:00  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-05 00:20:01  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-05 00:20:02  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-05 00:20:02  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-05 00:20:03  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-05 00:20:04  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-05 00:20:04  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:05  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:06  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:06  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:07  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:07  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:08  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:09  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:09  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:10  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:10  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:11  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:12  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:13  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:13  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:15  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:15  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:16  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:16  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:17  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-05 00:20:19  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]

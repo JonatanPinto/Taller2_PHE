@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	 <class name="hibernate.beans.Area" table="area">
+	 	<id name="claveArea" column="clave_area" type="string"/> 
+		<property name="nombre" column="nombre" type="string"/>
+	 </class>
+</hibernate-mapping>

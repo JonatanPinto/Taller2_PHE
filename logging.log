@@ -1,0 +1,603 @@
+2022-04-04 18:43:48  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-04 18:43:49  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 18:43:50  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-04 18:43:50  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 18:43:50  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-04 18:43:50  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-04 18:43:50  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-04 18:43:51  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-04 18:43:51  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 18:43:52  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 18:43:52  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 18:43:52  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 18:43:53  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:43:53  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:43:53  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:43:53  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:43:53  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:43:53  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:43:53  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:43:53  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:43:53  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:43:54  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:43:54  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 18:52:45  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-04 18:52:45  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 18:52:46  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-04 18:52:46  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 18:52:46  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-04 18:52:46  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-04 18:52:46  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-04 18:52:47  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-04 18:52:48  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 18:52:48  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA1' for key 'area.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 18:52:48  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA2' for key 'area.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 18:52:48  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA3' for key 'area.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 18:52:48  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '1234' for key 'profesor.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 18:52:48  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '2345' for key 'profesor.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 18:52:48  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '3456' for key 'profesor.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 18:52:48  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '4567' for key 'profesor.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 18:52:48  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '5678' for key 'profesor.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 18:52:48  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '6789' for key 'profesor.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 18:52:48  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '7890' for key 'profesor.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 18:52:48  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '8901' for key 'profesor.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 18:52:48  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '9012' for key 'profesor.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 18:52:48  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 18:52:48  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 18:52:48 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '0123' for key 'profesor.PRIMARY'
+2022-04-04 18:52:48  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 18:52:48 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 18:52:48  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 18:52:49  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 18:52:49  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 18:52:49  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 19:04:14  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-04 19:04:15  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 19:04:16  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-04 19:04:16  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 19:04:16  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-04 19:04:16  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-04 19:04:16  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-04 19:04:17  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-04 19:04:18  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 19:04:18  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 19:04:18  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 19:04:19  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 19:04:19  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 19:04:19  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 19:04:19  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 19:04:19  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 19:04:19  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 19:04:19  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 19:04:20  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 19:04:20  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 19:04:20  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 19:04:20  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 19:04:20  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 19:04:20  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 19:04:20  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 19:04:20  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 19:04:20  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 19:04:20 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 19:04:20  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 19:04:20 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 19:04:20  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 19:04:20  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 19:04:20 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 19:04:20  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 19:04:20 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 19:04:20  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 19:04:20  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 19:04:20 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 19:04:20  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 19:04:20 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 19:04:20  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 21:37:20  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-04 21:37:21  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 21:37:22  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-04 21:37:22  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 21:37:22  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-04 21:37:22  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-04 21:37:22  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-04 21:37:22  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-04 21:37:23  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 21:37:23  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 21:37:24  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 21:37:24  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 21:37:24  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 21:37:24  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 21:37:24  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 21:37:24  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 21:37:24  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 21:37:25  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 21:37:25  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 21:37:25  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 21:37:25  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 21:37:25  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 21:37:25  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 21:37:25  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 21:37:25  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 21:37:26  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 21:37:26  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 21:37:26 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 21:37:26  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 21:37:26 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 21:37:26  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 21:37:26  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 21:37:26 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 21:37:26  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 21:37:26 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 21:37:26  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 21:37:26  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 21:37:26 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 21:37:26  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 21:37:26 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 21:37:26  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 22:00:30  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-04 22:00:31  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 22:00:32  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-04 22:00:32  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 22:00:32  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-04 22:00:32  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-04 22:00:32  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-04 22:00:33  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-04 22:00:33  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 22:00:33  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:00:33  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:33 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA1' for key 'area.PRIMARY'
+2022-04-04 22:00:33  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:33 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:00:33  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:00:33  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:33 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA2' for key 'area.PRIMARY'
+2022-04-04 22:00:33  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:33 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:00:34  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA3' for key 'area.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:00:34  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '1234' for key 'profesor.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:00:34  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '2345' for key 'profesor.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:00:34  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '3456' for key 'profesor.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:00:34  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '4567' for key 'profesor.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:00:34  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '5678' for key 'profesor.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:00:34  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '6789' for key 'profesor.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:00:34  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '7890' for key 'profesor.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:00:34  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '8901' for key 'profesor.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:00:34  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '9012' for key 'profesor.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:00:34  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '0123' for key 'profesor.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:00:34  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY1' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY2' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY3' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:00:34 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 22:00:34  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:00:34 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:00:34  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 22:06:47  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-04 22:06:48  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 22:06:49  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-04 22:06:49  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 22:06:49  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-04 22:06:49  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-04 22:06:49  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-04 22:06:50  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-04 22:06:50  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 22:06:51  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA1' for key 'area.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:06:51  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA2' for key 'area.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:06:51  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA3' for key 'area.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:06:51  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '1234' for key 'profesor.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:06:51  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '2345' for key 'profesor.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:06:51  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '3456' for key 'profesor.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:06:51  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '4567' for key 'profesor.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:06:51  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '5678' for key 'profesor.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:06:51  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '6789' for key 'profesor.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:06:51  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '7890' for key 'profesor.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:06:51  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '8901' for key 'profesor.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:06:51  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '9012' for key 'profesor.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:06:51  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '0123' for key 'profesor.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:06:51  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY1' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY2' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY3' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:06:51 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'profesor_numero_economico' at row 1
+2022-04-04 22:06:51  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:06:51 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:06:51  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 22:10:40  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-04 22:10:41  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 22:10:42  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-04 22:10:42  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 22:10:42  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-04 22:10:42  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-04 22:10:42  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-04 22:10:43  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-04 22:10:43  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 22:10:44  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA1' for key 'area.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:10:44  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA2' for key 'area.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:10:44  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA3' for key 'area.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:10:44  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '1234' for key 'profesor.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:10:44  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '2345' for key 'profesor.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:10:44  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '3456' for key 'profesor.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:10:44  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '4567' for key 'profesor.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:10:44  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '5678' for key 'profesor.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:10:44  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '6789' for key 'profesor.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:10:44  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '7890' for key 'profesor.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:10:44  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '8901' for key 'profesor.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:10:44  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '9012' for key 'profesor.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:10:44  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '0123' for key 'profesor.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:10:44  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY1' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY2' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY3' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'proyecto_investigacion_id_proyecto_investigacion' at row 1
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'proyecto_investigacion_id_proyecto_investigacion' at row 1
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:10:44 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'proyecto_investigacion_id_proyecto_investigacion' at row 1
+2022-04-04 22:10:44  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:10:44 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:10:44  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 22:12:28  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-04 22:12:29  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 22:12:29  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-04 22:12:29  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-04 22:12:29  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-04 22:12:29  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-04 22:12:29  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-04 22:12:30  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-04 22:12:31  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 22:12:31  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA1' for key 'area.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:12:31  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA2' for key 'area.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:12:31  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'AREA3' for key 'area.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarArea::45 - ERROR AL INSERTAR AREA
+2022-04-04 22:12:31  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '1234' for key 'profesor.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:12:31  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '2345' for key 'profesor.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:12:31  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '3456' for key 'profesor.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:12:31  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '4567' for key 'profesor.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:12:31  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '5678' for key 'profesor.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:12:31  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '6789' for key 'profesor.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:12:31  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '7890' for key 'profesor.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:12:31  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '8901' for key 'profesor.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:12:31  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '9012' for key 'profesor.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:12:31  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry '0123' for key 'profesor.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesor::103 - ERROR AL INSERTAR PROFESOR
+2022-04-04 22:12:31  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY1' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY2' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1062, SQLState: 23000
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Duplicate entry 'PROY3' for key 'proyecto_investigacion.PRIMARY'
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProyectoInvestigacion::161 - ERROR AL INSERTAR PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'proyecto_investigacion_id_proyecto_investigacion' at row 1
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'proyecto_investigacion_id_proyecto_investigacion' at row 1
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1406, SQLState: 22001
+2022-04-04 22:12:31 ERRORSqlExceptionHelper::logExceptions::142 - Data truncation: Data too long for column 'proyecto_investigacion_id_proyecto_investigacion' at row 1
+2022-04-04 22:12:31  INFOAbstractBatchImpl::release::208 - HHH000010: On release of batch it still contained JDBC statements
+2022-04-04 22:12:31 ERRORInserciones::insertarProfesorProyectoInvestigacion::190 - ERROR AL INSERTAR PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-04 22:12:31  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
