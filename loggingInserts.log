@@ -44,3 +44,429 @@
 2022-04-05 00:20:16  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
 2022-04-05 00:20:17  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
 2022-04-05 00:20:19  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-05 22:03:51  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-05 22:03:52  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-05 22:03:53  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-05 22:03:53  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-05 22:03:53  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-05 22:03:53  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-05 22:03:53  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-05 22:03:56  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-05 22:03:57  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-05 22:03:57  INFOSelecciones::consultarProfesores::54 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-05 22:20:32  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-05 22:20:32  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-05 22:20:33  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-05 22:20:33  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-05 22:20:33  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-05 22:20:33  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-05 22:20:33  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-05 22:20:34  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-05 22:20:36  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-05 22:20:36  INFOSelecciones::consultarProfesores::57 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-05 22:24:12  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-05 22:24:12  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-05 22:24:13  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-05 22:24:13  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-05 22:24:13  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-05 22:24:13  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-05 22:24:13  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-05 22:24:14  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-05 22:24:15  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-05 22:24:15  INFOSelecciones::consultarProfesores::57 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-05 22:25:07  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-05 22:25:07  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-05 22:25:08  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-05 22:25:08  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-05 22:25:08  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-05 22:25:08  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-05 22:25:08  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-05 22:25:09  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-05 22:25:10  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-05 22:25:10  INFOSelecciones::consultarProfesores::57 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-05 22:25:38  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-05 22:25:39  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-05 22:25:40  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-05 22:25:40  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-05 22:25:40  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-05 22:25:40  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-05 22:25:40  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-05 22:25:40  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-05 22:25:41  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-05 22:25:41  INFOSelecciones::consultarProfesores::57 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-05 22:28:05  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-05 22:28:06  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-05 22:28:07  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-05 22:28:07  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-05 22:28:07  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-05 22:28:07  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-05 22:28:07  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-05 22:28:08  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-05 22:28:08  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-05 22:28:08  INFOSelecciones::consultarProfesores::57 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-05 22:28:50  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-05 22:28:50  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-05 22:28:51  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-05 22:28:51  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-05 22:28:51  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-05 22:28:51  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-05 22:28:51  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-05 22:28:52  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-05 22:28:52  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-05 22:28:52  INFOSelecciones::consultarProfesores::57 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-06 22:07:15  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-06 22:07:16  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-06 22:07:17  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-06 22:07:17  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-06 22:07:17  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-06 22:07:17  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-06 22:07:17  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-06 22:07:17  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-06 22:07:18  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 22:07:18  INFOSelecciones::consultarProfesores::60 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-06 22:07:18  INFOSelecciones::consultarAlumnos::109 - SELECCIONANDO LOS PROFESORES DEL PROYECTO: 41
+2022-04-06 22:07:18 ERRORErrorTracker::reportError::62 - line 1:219: unexpected token: BY
+2022-04-06 22:07:18 ERRORErrorTracker::reportError::57 - line 1:219: unexpected token: BY
+line 1:219: unexpected token: BY
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.atom(HqlBaseParser.java:4030)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.unaryExpression(HqlBaseParser.java:3877)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.multiplyExpression(HqlBaseParser.java:3754)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.additiveExpression(HqlBaseParser.java:3381)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.concatenation(HqlBaseParser.java:682)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.relationalExpression(HqlBaseParser.java:2987)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.equalityExpression(HqlBaseParser.java:2910)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.negatedExpression(HqlBaseParser.java:2774)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalAndExpression(HqlBaseParser.java:2685)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalOrExpression(HqlBaseParser.java:2645)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.expression(HqlBaseParser.java:2323)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalExpression(HqlBaseParser.java:2071)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.whereClause(HqlBaseParser.java:540)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:831)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:336)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:200)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:189)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114)
+	at hibernate.operaciones.Selecciones.consultarAlumnos(Selecciones.java:113)
+	at hibernate.principal.Principal.consultarProfesorPorProyecto(Principal.java:86)
+	at hibernate.principal.Principal.main(Principal.java:52)
+2022-04-06 22:07:19 ERRORErrorTracker::reportError::62 - line 1:222: unexpected token: ALU
+2022-04-06 22:07:19 ERRORErrorTracker::reportError::57 - line 1:222: unexpected token: ALU
+line 1:222: unexpected token: ALU
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:864)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:336)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:200)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:189)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114)
+	at hibernate.operaciones.Selecciones.consultarAlumnos(Selecciones.java:113)
+	at hibernate.principal.Principal.consultarProfesorPorProyecto(Principal.java:86)
+	at hibernate.principal.Principal.main(Principal.java:52)
+2022-04-06 22:17:33  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-06 22:17:34  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-06 22:17:35  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-06 22:17:35  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-06 22:17:35  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-06 22:17:35  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-06 22:17:35  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-06 22:17:35  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-06 22:17:36  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 22:17:36  INFOSelecciones::consultarProfesores::62 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-06 22:17:36  INFOSelecciones::consultarProfesorDeProyecto::111 - SELECCIONANDO LOS PROFESORES DEL PROYECTO: 41
+2022-04-06 22:17:36 ERRORErrorTracker::reportError::62 - line 1:219: unexpected token: BY
+2022-04-06 22:17:36 ERRORErrorTracker::reportError::57 - line 1:219: unexpected token: BY
+line 1:219: unexpected token: BY
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.atom(HqlBaseParser.java:4030)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.unaryExpression(HqlBaseParser.java:3877)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.multiplyExpression(HqlBaseParser.java:3754)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.additiveExpression(HqlBaseParser.java:3381)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.concatenation(HqlBaseParser.java:682)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.relationalExpression(HqlBaseParser.java:2987)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.equalityExpression(HqlBaseParser.java:2910)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.negatedExpression(HqlBaseParser.java:2774)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalAndExpression(HqlBaseParser.java:2685)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalOrExpression(HqlBaseParser.java:2645)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.expression(HqlBaseParser.java:2323)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalExpression(HqlBaseParser.java:2071)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.whereClause(HqlBaseParser.java:540)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:831)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:336)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:200)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:189)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114)
+	at hibernate.operaciones.Selecciones.consultarProfesorDeProyecto(Selecciones.java:115)
+	at hibernate.principal.Principal.consultarProfesorPorProyecto(Principal.java:87)
+	at hibernate.principal.Principal.main(Principal.java:53)
+2022-04-06 22:17:36 ERRORErrorTracker::reportError::62 - line 1:222: unexpected token: PR
+2022-04-06 22:17:36 ERRORErrorTracker::reportError::57 - line 1:222: unexpected token: PR
+line 1:222: unexpected token: PR
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:864)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:336)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:200)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:189)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114)
+	at hibernate.operaciones.Selecciones.consultarProfesorDeProyecto(Selecciones.java:115)
+	at hibernate.principal.Principal.consultarProfesorPorProyecto(Principal.java:87)
+	at hibernate.principal.Principal.main(Principal.java:53)
+2022-04-06 22:18:04  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-06 22:18:05  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-06 22:18:06  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-06 22:18:06  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-06 22:18:06  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-06 22:18:06  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-06 22:18:06  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-06 22:18:06  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-06 22:18:07  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 22:18:07  INFOSelecciones::consultarProfesores::62 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-06 22:18:07  INFOSelecciones::consultarProfesorDeProyecto::111 - SELECCIONANDO LOS PROFESORES DEL PROYECTO: 41
+2022-04-06 22:45:45  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-06 22:45:45  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-06 22:45:46  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-06 22:45:46  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-06 22:45:46  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-06 22:45:46  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-06 22:45:46  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-06 22:45:47  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-06 22:45:48  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 22:45:48  INFOSelecciones::consultarProfesores::63 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-06 22:45:48  INFOSelecciones::consultarProfesorDeProyecto::117 - SELECCIONANDO LOS PROFESORES DEL PROYECTO: 41
+2022-04-07 16:21:51  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-07 16:21:54  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 16:21:56  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-07 16:21:57  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-07 16:21:57  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-07 16:21:57  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-07 16:21:57  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-07 16:22:00  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-07 16:22:03  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 16:22:03  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-07 16:22:04  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-07 16:22:04  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-07 16:22:04  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:22:04  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:22:04  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:22:05  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:22:05  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:22:05  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:22:05  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:22:05  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:22:05  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:22:06  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:22:06  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-07 16:22:06  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-07 16:22:06  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-07 16:22:06  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:07  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:07  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:07  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:07  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:07  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:07  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:08  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:08  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:08  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:08  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:08  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:08  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:08  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:08  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:08  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:09  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:09  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:09  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:09  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:22:09  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-07 16:36:51  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-07 16:36:52  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 16:36:54  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-07 16:36:54  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-07 16:36:54  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-07 16:36:54  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-07 16:36:54  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-07 16:36:55  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-07 16:36:55  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 16:36:56  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-07 16:36:56  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-07 16:36:56  INFOInserciones::insertarArea::39 - INSERTANDO AREA
+2022-04-07 16:36:57  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:36:57  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:36:57  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:36:57  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:36:57  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:36:58  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:36:58  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:36:58  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:36:58  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:36:58  INFOInserciones::insertarProfesor::97 - INSERTANDO PROFESOR
+2022-04-07 16:36:58  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-07 16:36:58  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-07 16:36:59  INFOInserciones::insertarProyectoInvestigacion::155 - INSERTANDO PROYECTO DE INVESTIGACION
+2022-04-07 16:36:59  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:36:59  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:36:59  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:36:59  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:36:59  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:00  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:00  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:00  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:00  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:00  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:00  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:00  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:01  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:01  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:01  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:01  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:01  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:01  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:01  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:01  INFOInserciones::insertarProfesorProyectoInvestigacion::184 - INSERTANDO PROFESOR DE PROYECTO DE INVESTIGACION
+2022-04-07 16:37:01  INFOpooling::stop::502 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-07 16:38:02  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-07 16:38:03  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 16:38:04  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-07 16:38:04  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-07 16:38:04  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-07 16:38:04  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-07 16:38:04  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-07 16:38:04  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-07 16:38:05  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 16:38:05  INFOSelecciones::consultarProfesores::63 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-07 16:38:06  INFOSelecciones::consultarProfesorDeProyecto::117 - SELECCIONANDO LOS PROFESORES DEL PROYECTO: 41
+2022-04-07 16:40:03  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-07 16:40:03  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 16:40:04  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-07 16:40:04  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-07 16:40:04  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-07 16:40:04  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-07 16:40:04  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-07 16:40:05  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-07 16:40:06  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 16:40:06  INFOSelecciones::consultarProfesores::63 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-07 16:40:06  INFOSelecciones::consultarProfesorDeProyecto::117 - SELECCIONANDO LOS PROFESORES DEL PROYECTO: 5
+2022-04-07 16:44:17  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-07 16:44:17  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 16:44:18  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-07 16:44:18  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-07 16:44:18  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-07 16:44:18  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-07 16:44:18  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-07 16:44:19  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-07 16:44:20  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 16:44:20  INFOSelecciones::consultarProfesores::63 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-07 16:44:20  INFOSelecciones::consultarProfesorDeProyecto::117 - SELECCIONANDO LOS PROFESORES DEL PROYECTO: 5
+2022-04-07 16:44:20  INFOSelecciones::consultarRolesEnProyectos::154 - SELECCIONANDO LOS PROFESORES QUE CUMPLEN EL ROL DE : RESPONSABLE
+2022-04-07 16:44:20 ERRORErrorTracker::reportError::62 - line 1:348: unexpected token: RESPONSABLEORDER
+2022-04-07 16:44:20 ERRORErrorTracker::reportError::57 - line 1:348: unexpected token: RESPONSABLEORDER
+line 1:348: unexpected token: RESPONSABLEORDER
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.primaryExpression(HqlBaseParser.java:1113)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.atom(HqlBaseParser.java:3946)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.unaryExpression(HqlBaseParser.java:3877)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.multiplyExpression(HqlBaseParser.java:3754)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.additiveExpression(HqlBaseParser.java:3381)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.concatenation(HqlBaseParser.java:682)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.relationalExpression(HqlBaseParser.java:2987)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.equalityExpression(HqlBaseParser.java:2910)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.negatedExpression(HqlBaseParser.java:2774)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalAndExpression(HqlBaseParser.java:2695)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalOrExpression(HqlBaseParser.java:2645)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.expression(HqlBaseParser.java:2323)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalExpression(HqlBaseParser.java:2071)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.whereClause(HqlBaseParser.java:540)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:831)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:336)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:200)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:189)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114)
+	at hibernate.operaciones.Selecciones.consultarRolesEnProyectos(Selecciones.java:160)
+	at hibernate.principal.Principal.consultarRolesDeProyecto(Principal.java:115)
+	at hibernate.principal.Principal.main(Principal.java:58)
+2022-04-07 16:44:20 ERRORErrorTracker::reportError::62 - line 1:368: unexpected token: PR
+2022-04-07 16:44:20 ERRORErrorTracker::reportError::57 - line 1:368: unexpected token: PR
+line 1:368: unexpected token: PR
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:864)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:336)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:200)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:189)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114)
+	at hibernate.operaciones.Selecciones.consultarRolesEnProyectos(Selecciones.java:160)
+	at hibernate.principal.Principal.consultarRolesDeProyecto(Principal.java:115)
+	at hibernate.principal.Principal.main(Principal.java:58)
+2022-04-07 16:48:53  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-07 16:48:53  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 16:48:54  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-07 16:48:54  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-07 16:48:54  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-07 16:48:54  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-07 16:48:54  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-07 16:48:55  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-07 16:48:56  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 16:48:56  INFOSelecciones::consultarProfesores::63 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-07 16:48:56  INFOSelecciones::consultarProfesorDeProyecto::117 - SELECCIONANDO LOS PROFESORES DEL PROYECTO: 5
+2022-04-07 16:48:56  INFOSelecciones::consultarRolesEnProyectos::154 - SELECCIONANDO LOS PROFESORES QUE CUMPLEN EL ROL DE : RESPONSABLE
+2022-04-07 16:48:56  WARNSqlExceptionHelper::logExceptions::137 - SQL Error: 1054, SQLState: 42S22
+2022-04-07 16:48:56 ERRORSqlExceptionHelper::logExceptions::142 - Unknown column 'RESPONSABLE' in 'where clause'
+2022-04-07 16:49:19  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-07 16:49:20  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 16:49:21  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-07 16:49:21  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-07 16:49:21  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-07 16:49:21  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-07 16:49:21  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-07 16:49:21  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-07 16:49:22  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 16:49:22  INFOSelecciones::consultarProfesores::63 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-07 16:49:22  INFOSelecciones::consultarProfesorDeProyecto::117 - SELECCIONANDO LOS PROFESORES DEL PROYECTO: 5
+2022-04-07 16:49:22  INFOSelecciones::consultarRolesEnProyectos::154 - SELECCIONANDO LOS PROFESORES QUE CUMPLEN EL ROL DE : RESPONSABLE
+2022-04-07 16:51:13  INFOVersion::logVersion::44 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-07 16:51:14  INFOVersion::<clinit>::56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 16:51:15  WARNpooling::configure::72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-04-07 16:51:15  INFOpooling::buildCreator::115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/productos_profesor_web_phe]
+2022-04-07 16:51:15  INFOpooling::buildCreator::124 - HHH10001001: Connection properties: {password=****, user=root}
+2022-04-07 16:51:15  INFOpooling::buildCreator::129 - HHH10001003: Autocommit mode: false
+2022-04-07 16:51:15  INFODriverManagerConnectionProviderImpl::<init>::274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-04-07 16:51:15  INFODialect::<init>::175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-07 16:51:16  INFOJtaPlatformInitiator::initiateService::52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 16:51:16  INFOSelecciones::consultarProfesores::63 - SELECCIONANDO LAS LICENCIATURAS
+2022-04-07 16:51:16  INFOSelecciones::consultarProfesorDeProyecto::117 - SELECCIONANDO LOS PROFESORES DEL PROYECTO: 5
+2022-04-07 16:51:16  INFOSelecciones::consultarRolesEnProyectos::154 - SELECCIONANDO LOS PROFESORES QUE CUMPLEN EL ROL DE : RESPONSABLE

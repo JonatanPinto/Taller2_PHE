@@ -3,15 +3,15 @@ package hibernate.principal;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
-import hibernate.beans.Area;
 import hibernate.beans.Profesor;
-import hibernate.beans.ProfesorProyectoInvestigacion;
-import hibernate.beans.ProyectoInvestigacion;
+import hibernate.compuestas.ProfesorArea;
+import hibernate.compuestas.ProfesorPJ;
+import hibernate.compuestas.RolProyecto;
 import hibernate.conexion.CrearConexion;
-import hibernate.operaciones.Inserciones;
+import hibernate.operaciones.Selecciones;
 import utilities.TextReader;
 
 /**
@@ -19,92 +19,107 @@ import utilities.TextReader;
  * @author Jonatan
  *
  */
-public class Principal {
+public class Principal{
+	
+	private static final String[] roles = {"RESPONSABLE","PARTICIPANTE"};
 
 	public static void main(String[] args) {
 		Properties properties = new Properties();
-		try {
-			properties.load(new FileReader("config.properties"));
-			System.out.println("Iniciando Conexion");
-			String PATH_FILE = properties.getProperty("pathFile");
-			System.out.println("\nCargando Areas");
-			System.out.println("Areas cargadas: " + cargarAreas(TextReader.read(PATH_FILE + "llenado_area.txt")));
-			
-			System.out.println("\nCargando Profesores");
-			System.out.println("Profesores cargados: " + cargarProfesores(TextReader.read(PATH_FILE + "llenado_profesores.txt")));
-			
-			System.out.println("\nCargando Proyectos");
-			System.out.println("Proyectos cargadas: " + cargarProyectos(TextReader.read(PATH_FILE + "llenado_proyecto.txt")));
-			
-			System.out.println("\nAsignando Proyectos a Profesores");
-			System.out.println("Asignaciones cargadas: " + cargarProfesorProyectos(TextReader.read(PATH_FILE + "llenado_profesor_proyecto.txt")));
-			
-			CrearConexion.closeSessionFactory();
-			System.out.println("\nFinalizando Conexion");
-		} catch (FileNotFoundException e) {
-			System.err.println(e.getMessage());
-		} catch (IOException e) {
-			System.err.println(e.getMessage());			
-		}
+//		Load load = new Load();
+//		try {
+//			properties.load(new FileReader("config.properties"));
+//			System.out.println("Iniciando Conexion");
+//			String PATH_FILE = properties.getProperty("pathFile");
+//			System.out.println("\nCargando Areas");
+//			System.out.println("Areas cargadas: " + load.cargarAreas(TextReader.read(PATH_FILE + "llenado_area.txt")));
+//			
+//			System.out.println("\nCargando Profesores");
+//			System.out.println("Profesores cargados: " + load.cargarProfesores(TextReader.read(PATH_FILE + "llenado_profesores.txt")));
+//			
+//			System.out.println("\nCargando Proyectos");
+//			System.out.println("Proyectos cargadas: " + load.cargarProyectos(TextReader.read(PATH_FILE + "llenado_proyecto.txt")));
+//			
+//			System.out.println("\nAsignando Proyectos a Profesores");
+//			System.out.println("Asignaciones cargadas: " + load.cargarProfesorProyectos(TextReader.read(PATH_FILE + "llenado_profesor_proyecto.txt")));
+//			
+//			CrearConexion.closeSessionFactory();
+//			System.out.println("\nFinalizando Conexion");
+//		} catch (FileNotFoundException e) {
+//			System.err.println(e.getMessage());
+//		} catch (IOException e) {
+//			System.err.println(e.getMessage());			
+//		}
+		consultarListaProfesores();
+		System.out.println("\n-----------------------------------------------------------------------------------\n");
+		consultarProfesorArea();
+		System.out.println("\n-----------------------------------------------------------------------------------\n");
+		consultarProfesorPorProyecto(5);
+		System.out.println("\n-----------------------------------------------------------------------------------\n");
+		consultarRolesDeProyecto(roles[0]);
 	}
 
 	/**
-	 * @param data
+	 * Primera consulta
 	 */
-	private static int cargarProfesorProyectos(ArrayList<String> data) {
-		Inserciones inserciones = new Inserciones();
-		int count = 0;
-		for (String string : data) {
-			String[] temp = string.split(",");
-			count++;
-			inserciones.insertarProfesorProyectoInvestigacion(new ProfesorProyectoInvestigacion(temp[2], temp[0], temp[1]));
+	private static void consultarListaProfesores() {
+		Selecciones selecciones = new Selecciones();
+		List<Profesor> lista = selecciones.consultarProfesores();
+		if (lista != null) {
+			for (int i = 0; i < lista.size(); i++)
+				System.out.println(lista.get(i).toString());
+		} else {
+			System.out.println("No hay elementos");
 		}
-		return count;
 	}
-
+	
 	/**
-	 * @param data
-	 * @return 
+	 * Segunda consulta
 	 */
-	private static int cargarProyectos(ArrayList<String> data) {
-		Inserciones inserciones = new Inserciones();
-		int count = 0;
-		for (String string : data) {
-			String[] temp = string.split(",");
-			count++;
-			inserciones.insertarProyectoInvestigacion(new ProyectoInvestigacion(temp[0], temp[1], temp[2]));
+	private static void consultarProfesorArea() {
+		Selecciones selecciones = new Selecciones();
+		List<ProfesorArea> lista = selecciones.consultarProfesorArea();
+		if (lista.size() != 0) {
+			for (int i = 0; i < lista.size(); i++) {
+				System.out.println(lista.get(i).toString());
+			}
+		} else {
+			System.out.println("NO HAY ELEMENTOS");
 		}
-		return count;
 	}
-
+	
 	/**
-	 * @param read
+	 * Tercera Consulta
+	 * @param idProyecto
+	 * @return
 	 */
-	private static int cargarProfesores(ArrayList<String> data) {
-		Inserciones inserciones = new Inserciones();
-		int count = 0;
-		for (String string : data) {
-			String[] temp = string.split(",");
-			count++;
-			inserciones.insertarProfesor(new Profesor(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5]));
+	private static void consultarProfesorPorProyecto(int numProyecto) {
+		Selecciones selecciones = new Selecciones();
+		List<ProfesorPJ> lista = selecciones.consultarProfesorDeProyecto(numProyecto);
+		if (lista != null) {
+			if (lista.size() != 0) {
+				for (int i = 0; i < lista.size(); i++)
+					System.out.println(lista.get(i).toString());
+			} else {
+				System.out.println("No hay elementos");
+			}
 		}
-		return count;
 	}
-
+	
 	/**
-	 * 
-	 * @param data
-	 * @return 
+	 * Cuarta Consulta
+	 * @param rol
+	 * @return
 	 */
-	private static int cargarAreas(ArrayList<String> data) {
-		Inserciones inserciones = new Inserciones();
-		int count = 0;
-		for (String string : data) {
-			String[] temp = string.split(",");
-			count++;
-			inserciones.insertarArea(new Area(temp[0], temp[1]));
+	private static void consultarRolesDeProyecto(String rol) {
+		Selecciones selecciones = new Selecciones();
+		List<RolProyecto> lista = selecciones.consultarRolesEnProyectos(rol);
+		if (lista != null) {
+			if (lista.size() != 0) {
+				for (int i = 0; i < lista.size(); i++)
+					System.out.println(lista.get(i).toString());
+			} else {
+				System.out.println("No hay elementos");
+			}
 		}
-		return count;
 	}
-
 }
