@@ -73,6 +73,6 @@ public class ProyectoInvestigacion {
 
 	@Override
 	public String toString() {
-		return "ProyectoInvestigacion= " + idProyectoInvestigacion + ", " + nombre + ", " + areaClaveArea;
+		return idProyectoInvestigacion + "," + nombre + "," + areaClaveArea;
 	}
 }

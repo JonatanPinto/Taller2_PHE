@@ -125,7 +125,7 @@ public class Profesor {
 
 	@Override
 	public String toString() {
-		return "Profesor= " + numeroEconomico + ", " + nombre + ", " + primerApellido + ", " + segundoApellido + ", "
-				+ gradoAcademico + ", " + areaClaveArea;
+		return numeroEconomico + "," + nombre + "," + primerApellido + "," + segundoApellido + "," + gradoAcademico
+				+ "," + areaClaveArea;
 	}
 }

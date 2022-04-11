@@ -107,7 +107,7 @@ public class ProfesorProyectoInvestigacion {
 
 	@Override
 	public String toString() {
-		return "ProfesorProyectoInvestigacion= " + idProfesorProyectoInvestigacion + ", " + rol + ", "
-				+ profesorNumeroEconomico + ", " + proyectoInvestigacionIdProyectoInvestigacion;
+		return idProfesorProyectoInvestigacion + "," + rol + "," + profesorNumeroEconomico + ","
+				+ proyectoInvestigacionIdProyectoInvestigacion;
 	}
 }

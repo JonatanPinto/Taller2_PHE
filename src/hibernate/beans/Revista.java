@@ -93,7 +93,7 @@ public class Revista {
 
 	@Override
 	public String toString() {
-		return "Revista= " + isbn + ", " + nombre + ", " + editorial + ", " + tipo;
+		return isbn + "," + nombre + "," + editorial + "," + tipo;
 	}
 
 }

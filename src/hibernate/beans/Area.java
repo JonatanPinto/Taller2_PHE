@@ -56,6 +56,6 @@ public class Area {
 
 	@Override
 	public String toString() {
-		return "Area= " + claveArea + ", " + nombre;
+		return claveArea + "," + nombre;
 	}
 }

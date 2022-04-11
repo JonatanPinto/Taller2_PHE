@@ -12,13 +12,8 @@ import hibernate.compuestas.ProfesorPJ;
 import hibernate.compuestas.RolProyecto;
 import hibernate.conexion.CrearConexion;
 import hibernate.operaciones.Selecciones;
-import utilities.TextReader;
+import reader.TextReader;
 
-/**
- * 
- * @author Jonatan
- *
- */
 public class Principal{
 	
 	private static final String[] roles = {"RESPONSABLE","PARTICIPANTE"};

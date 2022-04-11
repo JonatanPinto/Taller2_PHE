@@ -12,6 +12,7 @@ public class ProfesorPJ {
 	private String nombre;
 	private String primerApellido;
 	private String segundoApellido;
+	private String gradoAcademico;
 	
 	/**
 	 * 
@@ -31,7 +32,6 @@ public class ProfesorPJ {
 		this.primerApellido = primerApellido;
 		this.segundoApellido = segundoApellido;
 	}
-	private String gradoAcademico;
 	/**
 	 * @return the nombre
 	 */

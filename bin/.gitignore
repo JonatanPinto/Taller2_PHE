@@ -1,3 +1,6 @@
 /hibernate.cfg.xml
 /hibernate/
 /utilities/
+/gui/
+/reader/
+/controller/

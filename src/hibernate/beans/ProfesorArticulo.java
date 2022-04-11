@@ -77,7 +77,7 @@ public class ProfesorArticulo {
 
 	@Override
 	public String toString() {
-		return "ProfesorArticulo= " + idProfesorArticuloInvestigacion + ", "
-				+ articuloInvestigacionIdArticuloInvestigacion + ", " + profesorNumeroEconomico;
+		return idProfesorArticuloInvestigacion + "," + articuloInvestigacionIdArticuloInvestigacion + ","
+				+ profesorNumeroEconomico;
 	}
 }

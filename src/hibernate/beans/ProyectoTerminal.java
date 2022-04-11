@@ -163,8 +163,7 @@ public class ProyectoTerminal {
 
 	@Override
 	public String toString() {
-		return "ProyectoTerminal= " + idProyectoTerminal + ", " + titulo + ", " + cantitadAlumnos + ", " + fechaInicio
-				+ ", " + fechaFinalizacion + ", " + puntos + ", " + estado + ", "
-				+ proyectoInvestigacionIdProyectoInvestigacion;
+		return idProyectoTerminal + "," + titulo + "," + cantitadAlumnos + "," + fechaInicio + "," + fechaFinalizacion
+				+ "," + puntos + "," + estado + "," + proyectoInvestigacionIdProyectoInvestigacion;
 	}
 }

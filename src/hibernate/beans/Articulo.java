@@ -137,7 +137,7 @@ public class Articulo {
 
 	@Override
 	public String toString() {
-		return "Articulo= " + idArticuloInvestigacion + ", " + titulo + ", " + fechaPublicacion + ", " + puntos + ", "
-				+ estado + ", " + proyectoInvestigacionIdProyectoInvestigacion + ", " + revista_isbn;
+		return idArticuloInvestigacion + "," + titulo + "," + fechaPublicacion + "," + puntos + "," + estado + ","
+				+ proyectoInvestigacionIdProyectoInvestigacion + "," + revista_isbn;
 	}
 }

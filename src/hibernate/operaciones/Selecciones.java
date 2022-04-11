@@ -173,4 +173,39 @@ public class Selecciones {
 		}
 		return listaProfesores;
 	}
+	
+	//---------------------------------------------------------------------------------------------------
+	public List<Integer> consultarNumerosDeProyecto() {
+		PropertyConfigurator.configure("logger.properties");
+		List<Integer> lista;
+		Session sesion = null;
+		try {
+			sesion = CrearConexion.getSessionFactory().openSession();
+		} catch (ExceptionInInitializerError ex) {
+			System.err.println("No se pudo crear la sesion ");
+			throw new ExceptionInInitializerError(ex);
+		}
+		log.info("SELECCIONANDO NUMEROS DE PROYECTO");
+		/* El nombre de la clase de la cuál se llenará la lista List */
+		String sentencia = "SELECT idProfesorProyectoInvestigacion FROM hibernate.beans.ProfesorProyectoInvestigacion ORDER BY idProfesorProyectoInvestigacion";
+		lista = sesion.createQuery(sentencia).list();
+		return lista;
+	}
+	
+	public List<String> consultarRolesDeProyecto() {
+		PropertyConfigurator.configure("logger.properties");
+		List<String> lista;
+		Session sesion = null;
+		try {
+			sesion = CrearConexion.getSessionFactory().openSession();
+		} catch (ExceptionInInitializerError ex) {
+			System.err.println("No se pudo crear la sesion ");
+			throw new ExceptionInInitializerError(ex);
+		}
+		log.info("SELECCIONANDO ROLES DE PROYECTOS");
+		/* El nombre de la clase de la cuál se llenará la lista List */
+		String sentencia = "SELECT distinct rol  FROM hibernate.beans.ProfesorProyectoInvestigacion ORDER BY rol";
+		lista = sesion.createQuery(sentencia).list();
+		return lista;
+	}
 }
