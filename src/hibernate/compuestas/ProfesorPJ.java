@@ -4,7 +4,6 @@
 package hibernate.compuestas;
 
 /**
- * @author Jonatan
  *
  */
 public class ProfesorPJ {

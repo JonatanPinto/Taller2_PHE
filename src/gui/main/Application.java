@@ -17,7 +17,6 @@ import controller.Controller;
 
 
 /**
- * @author Jonatan
  *
  */
 public class Application extends JFrame {

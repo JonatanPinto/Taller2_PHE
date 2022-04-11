@@ -30,7 +30,11 @@ public class JDWindow extends JDialog {
 	private JPanel panel, panel2;
 	
 	/**
-	 * 
+	 * Constructor de la ventana que permitira ver los datos de las consultas
+	 * @param labelText Banner con el texto que desea ser mostrado en la parte superior de la tabla
+	 * @param textList Lista de Strings que contiene los datos a mostrar en la tabla
+	 * @param headers Encabezados de la tabla
+	 * @param frame Ventana sobre la cual se mostrara el JDialog
 	 */
 	public JDWindow(String labelText, ArrayList<String> textList, String[] headers, JFrame frame) {
 		this.setLayout(new BorderLayout());
@@ -49,7 +53,9 @@ public class JDWindow extends JDialog {
 	}
 
 	/**
-	 * 
+	 * Metodo privado auxiliar que permite configurar lo concerniente a la tabla
+	 * @param textList Lista de Strings que contiene los datos a mostrar en la tabla
+	 * @param headers Encabezados de la tabla
 	 */
 	private void table(ArrayList<String> textList, String[] headers) {
 		JTable table = new JTable(convertList(textList),headers);
@@ -60,6 +66,11 @@ public class JDWindow extends JDialog {
 		panel2.add(scrollPane);
 	}
 	
+	/**
+	 * Metodo auxiliar que permite convertir la Lista de String con los datos en un arreglo de dos dimensiones para ser mostrado en la tabla
+	 * @param list Lista de Strings con los datos
+	 * @return Arreglo de 2 dimensiones
+	 */
 	private String[][] convertList(ArrayList<String> list){
 		String[][] temp = new String[list.size()][list.get(0).split(",").length];
 		for (int i = 0; i < list.size(); i++) {

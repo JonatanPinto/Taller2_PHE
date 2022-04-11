@@ -7,6 +7,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+ * Clase encargada de leer el archivo de propiedades ubicado en la raiz del proyecto
+ *
+ */
 public class PropertiesReader {
 
 	private static PropertiesReader instance;
@@ -31,7 +35,12 @@ public class PropertiesReader {
 		return instance;
 	}
 	
-	public static String getProperty(String property) {
+	/**
+	 * Metodo que permite buscar una llave en el archivo de propiedades y devolver su valor
+	 * @param property Llave
+	 * @return Valor
+	 */
+	public String getProperty(String property) {
 		return properties.getProperty(property);
 	}
 }

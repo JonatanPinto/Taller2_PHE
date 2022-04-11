@@ -4,7 +4,7 @@
 package controller;
 
 /**
- * @author Jonatan
+ * Enumerado que contiene los comandos de los botones de la parte grafica
  *
  */
 public enum Commands {

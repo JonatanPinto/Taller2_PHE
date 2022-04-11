@@ -13,7 +13,7 @@ import hibernate.beans.*;
 import hibernate.conexion.CrearConexion;
 
 /**
- * @author Jonatan
+ * Clase que se encarga de realizar las inserciones en la base de datos
  *
  */
 public class Inserciones {

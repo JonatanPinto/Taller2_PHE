@@ -19,7 +19,7 @@ import hibernate.compuestas.RolProyecto;
 import hibernate.conexion.CrearConexion;
 
 /**
- * @author Jonatan
+ * Clase que se encarga de realizar las consultas a la base de datos y devolver un Objeto con los resultados
  *
  */
 public class Selecciones {

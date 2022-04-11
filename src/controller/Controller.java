@@ -20,12 +20,12 @@ import hibernate.operaciones.Selecciones;
 import reader.PropertiesReader;
 
 /**
- * Clase controlador que manejara los eventos de la aplicacion, 
- * El constructor esta implementado bajo el patron Singleton
- * Para acceder a los metodos de la clase se usa el metodo getInstance()
+ * Clase controlador que manejara los eventos de la aplicacion, El constructor
+ * esta implementado bajo el patron Singleton Para acceder a los metodos de la
+ * clase se usa el metodo getInstance()
  */
-public class Controller implements ActionListener{
-	
+public class Controller implements ActionListener {
+
 	private static Controller instance;
 	private static Application application;
 	private static Selecciones selecciones;
@@ -36,11 +36,12 @@ public class Controller implements ActionListener{
 	private Controller() {
 		CrearConexion.getSessionFactory();
 	}
-	
-	
 
 	/**
-	 * @return the instance
+	 * Metodo que retorna la instancia del Controlador para poder acceder a los
+	 * metodos
+	 * 
+	 * @return Objeto de tipo Controller
 	 */
 	public static Controller getInstance() {
 		if (instance == null) {
@@ -50,6 +51,7 @@ public class Controller implements ActionListener{
 	}
 
 	public void setController(Application application, Selecciones selecciones) {
+		OptionPane.mostrarTexto(application, PropertiesReader.getInstance().getProperty("message"), PropertiesReader.getInstance().getProperty("welcome"));
 		Controller.selecciones = selecciones;
 		Controller.application = application;
 	}
@@ -77,7 +79,8 @@ public class Controller implements ActionListener{
 	}
 
 	/**
-	 * Primera consulta
+	 * Primera consulta Accede a las selecciones y busca los profesores en la base
+	 * de datos, posteriormente pasa los datos a la parte grafica para ser mostrados
 	 */
 	private static void consultarListaProfesores() {
 		List<Profesor> lista = selecciones.consultarProfesores();
@@ -88,12 +91,14 @@ public class Controller implements ActionListener{
 		} else {
 			System.out.println("No hay elementos");
 		}
-		PropertiesReader.getInstance();
-		new JDWindow(PropertiesReader.getProperty("option1"), temp, PropertiesReader.getProperty("headersProfesor").split(","), application);
+		new JDWindow(PropertiesReader.getInstance().getProperty("option1"), temp,
+				PropertiesReader.getInstance().getProperty("headersProfesor").split(","), application);
 	}
-	
+
 	/**
-	 * Segunda consulta
+	 * Segunda consulta Accede a las selecciones y busca los profesores junto a la
+	 * area a la que pertenecen en la base de datos, posteriormente pasa los datos a
+	 * la parte grafica para ser mostrados
 	 */
 	private static void consultarProfesorArea() {
 		List<ProfesorArea> lista = selecciones.consultarProfesorArea();
@@ -105,16 +110,21 @@ public class Controller implements ActionListener{
 		} else {
 			System.out.println("NO HAY ELEMENTOS");
 		}
-		new JDWindow(PropertiesReader.getProperty("option2"), temp, PropertiesReader.getProperty("headersProfesorArea").split(","), application);
+		new JDWindow(PropertiesReader.getInstance().getProperty("option2"), temp,
+				PropertiesReader.getInstance().getProperty("headersProfesorArea").split(","), application);
 	}
-	
+
 	/**
-	 * Tercera Consulta
-	 * @param idProyecto
-	 * @return
+	 * Tercera Consulta Accede a las selecciones y busca los profesores asignados a
+	 * un numero de proyecto determinado en la base de datos, posteriormente pasa
+	 * los datos a la parte grafica para ser mostrados
+	 * 
+	 * @param idProyecto Numero del proyecto que servira como parametro de busqueda
+	 *                   El idProyecto no es necesario ser escrito debido a que se
+	 *                   muestran los idProyectos existentes en la base de datos
 	 */
 	private static void consultarProfesorPorProyecto() {
-		//int
+		// int
 		int numProyecto = OptionPane.conseguirNumero(application, selecciones.consultarNumerosDeProyecto().toArray());
 		List<ProfesorPJ> lista = selecciones.consultarProfesorDeProyecto(numProyecto);
 		ArrayList<String> temp = new ArrayList<>();
@@ -125,13 +135,17 @@ public class Controller implements ActionListener{
 		} else {
 			System.out.println("NO HAY ELEMENTOS");
 		}
-		new JDWindow(PropertiesReader.getProperty("option3") + numProyecto, temp, PropertiesReader.getProperty("headersProfesorProyecto").split(","), application);
+		new JDWindow(PropertiesReader.getInstance().getProperty("option3") + numProyecto, temp,
+				PropertiesReader.getInstance().getProperty("headersProfesorProyecto").split(","), application);
 	}
-	
+
 	/**
-	 * Cuarta Consulta
-	 * @param rol
-	 * @return
+	 * Cuarta Consulta Accede a las selecciones y busca los profesores asignados en
+	 * todos los proyectos pero que esten con el rol deseado en la base de datos,
+	 * posteriormente pasa los datos a la parte grafica para ser mostrados
+	 * 
+	 * @param rol Rol asignado a un profesor El rol no es necesario ser escrito
+	 *            debido a que se muestran los roles existentes en la base de datos
 	 */
 	private static void consultarRolesDeProyecto() {
 		// string
@@ -145,6 +159,7 @@ public class Controller implements ActionListener{
 		} else {
 			System.out.println("NO HAY ELEMENTOS");
 		}
-		new JDWindow(PropertiesReader.getProperty("option4") + rol, temp, PropertiesReader.getProperty("headersRolProyecto").split(","), application);
+		new JDWindow(PropertiesReader.getInstance().getProperty("option4") + rol, temp,
+				PropertiesReader.getInstance().getProperty("headersRolProyecto").split(","), application);
 	}
 }
